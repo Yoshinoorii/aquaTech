@@ -128,3 +128,110 @@ body {
 .footer h4{
     margin-bottom: 0;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background: url(../assets/imgs/bg-jelly-fish-para_outras_pags.png);
+    background-size: cover;
+}
+
+.header {
+    width: 100%;
+    background-color: black;
+    border-bottom: 3px solid #00bfff;
+}
+
+.header .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.titulo {
+    color: #00bfff;
+    font-size: 28px;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bfff;
+}
+
+.navbar .agora a {
+    color: #ffaa00;
+    font-weight: bold;
+}
+
+
+.login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 720px;
+}
+
+.card-login {
+    background-color: #f2f2f2;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 600px;
+}
+
+.card-login h2 {
+    color: #e6005a;
+    margin-bottom: 30px;
+}
+
+.formulario .campo {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.formulario .campo span {
+    display: block;
+    color: #e6005a;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.formulario .campo input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00bfff;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.botao {
+    width: 30%;
+    padding: 12px;
+    background-color: #e6005a;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.version {
+    font-size: 14px;
+    color: #aaaaaa;
+}
+

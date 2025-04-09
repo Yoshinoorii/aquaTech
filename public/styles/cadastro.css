@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  :root {
+    --azul: #32b9cd;
+    --amarelo: #e3b062;
+}
+  
+  body {
+    font-family: Arial, sans-serif;
+    background: url('../assets/imgs/bg-jelly-fish-para_outras_pags.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .header {
+    width: 100%;
+    background-color: black;
+    border-bottom: 3px solid #00bfff;
+  }
+  
+  .header .container {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .titulo {
+    color: #00bfff;
+    font-size: 28px;
+  }
+  
+  .navbar {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #00bfff;
+}
+
+.navbar .agora a {
+    color: #ffaa00;
+    font-weight: bold;
+}
+  
+  .login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 0;
+  }
+
+  .card-cadastro h2 {
+    font-size: 45px;
+  }
+  
+  .card-cadastro {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    width: 750px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .card-cadastro h2 {
+    color: #e6005a;
+    margin-bottom: 30px;
+  }
+  
+  .formulario .campo {
+    
+    margin-bottom: 20px;
+    text-align: left;
+    
+  }
+  
+  .formulario .campo span {
+    display: block;
+    color: #e6005a;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+  }
+  
+  .formulario .campo input {
+    background-color: white;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #00bfff;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .botao {
+    width: 30%;
+    padding: 12px;
+    background-color: #e6005a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .footer{
+    height: 130px;
+    width: 100%;
+    background-color: var(--azul);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.footer .container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.footer h4{
+    margin-bottom: 0;
+}
+  
+  .version {
+    font-size: 14px;
+    color: #aaaaaa;
+  }
+  
